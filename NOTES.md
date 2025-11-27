@@ -19,7 +19,11 @@
 * Herança é sobre uma caracteristica herdada, então ela não permite alteração.
 * Eu não consigo criar um carro e alterar o atributo motor com herança.
 * Porque ao herdar, eu perco acesso a superclasse em runtime para alterar.
-* 
+
+# 5 Herança vs Composição
+* Herança possui polimorfismo porém é diferente do por composição.
+* Em composição eu consigo alterar o estado, passando hora um pai e hora um mãe e pegar diferentes atributos em runtime.
+* Com herança eu consigo polimorfar o comportamente, em cachorro extendendo animal ele late, em gato ele mia.
 
 
 # Avaliação
