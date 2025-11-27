@@ -1,14 +1,26 @@
-#1 Polimorfismo
+# 1 Polimorfismo
 * Tudo funcionou com esperado, até eu tentar ver a raça do animal Marinho e dar Null.
 * Eu não tinha colado a possibilidade de passar raça no construtor do animal marinho.
 * Eu não consigo passar no construtor do animal marinho as características de Raça, Alimentação e Força que é de animal.
 * Eu não consigo fazer this. Posso fazer a gambiarra com SetRaça no construtor.
 * Preciso avaliar se é a melhor.
 
-#2 - Estado
+# 2 - Estado
 * Estado representa o momento de um objeto, aplicando uma ‘interface’, por exemplo, o estado do animal ao fazer ação muda.
 * Se for Marinho, ele vai estár a nadar. For uma ave, estár voando.
 * O Design pattern é criar um Context, ele expõe como está o estado no momento.
+
+# 3 - Composição, achei "simples" porém complexo.
+* Porque eu tenho que definir, setMotor e da CarroComposição.getMotor.getMontadora pra chegar ao nome do motor do carro composto.
+* Mais verboso talvez, não entendi aplicação real, apesar de eu fazer isso o tempo inteiro em Api's passando outros Objetos.
+* Como NotaFiscal que recebem List<Itens> itens. Elas são os itens que compõem a Nota.
+
+# 4 - Herança
+* Herança é sobre uma caracteristica herdada, então ela não permite alteração.
+* Eu não consigo criar um carro e alterar o atributo motor com herança.
+* Porque ao herdar, eu perco acesso a superclasse em runtime para alterar.
+* 
+
 
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.

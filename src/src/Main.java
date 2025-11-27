@@ -35,6 +35,20 @@ public class Main {
         animalContext.setAnimal(baleia);
         animalContext.doAction();
 
+        Composição carroComposto = new Composição();
+        Composição.Motor motorMarea = new Composição.Motor();
+        motorMarea.setMontadora("Honda pq é bomba");
+        carroComposto.setNomeCarro("Marea Turbo");
+        carroComposto.setMotor(motorMarea);
+
+        System.out.println(carroComposto.getNomeCarro() + " = " + carroComposto.getMotor().getMontadora());
+
+        Herança carro = new Herança();
+        carro.setNomeCarro("HB20");
+        carro.setMontadora("Hyundai");
+
+        System.out.println(carro.getNomeCarro() + " " + carro.getMontadora());
+        
 
     }
 }
