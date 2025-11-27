@@ -5,9 +5,17 @@
 * Eu não consigo fazer this. Posso fazer a gambiarra com SetRaça no construtor.
 * Preciso avaliar se é a melhor.
 
+#2 - Estado
+* Estado representa o momento de um objeto, aplicando uma ‘interface’, por exemplo, o estado do animal ao fazer ação muda.
+* Se for Marinho, ele vai estár a nadar. For uma ave, estár voando.
+* O Design pattern é criar um Context, ele expõe como está o estado no momento.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.
 * Me dei conta que não sei fazer, vou tentar algo.
 * Polimorfismo é mudar uma função, através de sobreescrita dentro de uma função e outra.
 * Velocidade dando zero em animal e 40 em Maritmo.
+
+* Eu tive que pesquisar pra aprender o pattern mas consegui entender e aplicar corretamente STATE PATTERN + POLIMORFISMO
+* Eu polimorfo quando o DoAction do animal é alterado e o State Pattern é expor como está o estado no MOMENTO.
