@@ -1,4 +1,7 @@
 import WeekOneCoreJava.Polimorfismo;
+import WeekOneCoreJava.StateTvOff;
+import WeekOneCoreJava.StateTvOn;
+import WeekOneCoreJava.TvStateContext;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,5 +18,16 @@ public class Main {
         System.out.println("Say hello to: "+animal.getRaça()+" - "+animal.getAlimentação()+" - "+animal.getForça());
         System.out.println("Say hello to: "+animalMarinho.velocidade());
         System.out.println("Say hello to: "+animal.velocidade());
+
+        StateTvOn tvOn = new StateTvOn();
+        tvOn.doAction();
+
+        StateTvOff tvOff = new StateTvOff();
+        tvOff.doAction();
+
+        TvStateContext tvContext = new TvStateContext();
+        tvContext.setState(tvOn);
+        tvContext.doAction();
+
     }
 }
