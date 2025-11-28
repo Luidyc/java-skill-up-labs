@@ -48,7 +48,14 @@ public class Main {
         carro.setMontadora("Hyundai");
 
         System.out.println(carro.getNomeCarro() + " " + carro.getMontadora());
-        
+
+        String humano = "Eu sou uma pessoa - Human A";
+        Generics<String> generics = new Generics<>();
+        Generics<Animal> animalGenerico = new Generics<>();
+        generics.setObject(humano);
+        System.out.println(generics.getObject());
+        animalGenerico.save(animalContext.getAnimal());
+
 
     }
 }

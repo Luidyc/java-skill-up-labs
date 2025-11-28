@@ -25,6 +25,11 @@
 * Em composição eu consigo alterar o estado, passando hora um pai e hora um mãe e pegar diferentes atributos em runtime.
 * Com herança eu consigo polimorfar o comportamente, em cachorro extendendo animal ele late, em gato ele mia.
 
+# 6 Generics
+* Abstração total, podendo reutilizar códigos que são repetidos
+* Criar funções menores, como save() ou verificações
+* Sendo assim, consigo passar qualquer tipo de objeto e ter mesmo comportamento.
+
 
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
@@ -35,3 +40,5 @@
 
 * Eu tive que pesquisar pra aprender o pattern mas consegui entender e aplicar corretamente STATE PATTERN + POLIMORFISMO
 * Eu polimorfo quando o DoAction do animal é alterado e o State Pattern é expor como está o estado no MOMENTO.
+
+* Combinação de Generics e Composição e Estado é uma grande alavanca.

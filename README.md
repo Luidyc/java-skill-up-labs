@@ -70,7 +70,7 @@ Esse ciclo forma habilidade real.
 ### **Semana 1 — Core Java**
 - Polimorfismo real ✅
 - Herança vs composição ✅
-- Generics
+- Generics ✅
 - Exceptions
 - Reflection + dynamic object reading
 
