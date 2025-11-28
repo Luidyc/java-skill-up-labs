@@ -1,7 +1,8 @@
 import WeekOneCoreJava.*;
 
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MinhaException {
         System.out.println("Hello, World!");
 
         Polimorfismo.Animal animal = new Polimorfismo.Animal("Cachorro","Herbivoro","Fraco");
@@ -55,6 +56,16 @@ public class Main {
         generics.setObject(humano);
         System.out.println(generics.getObject());
         animalGenerico.save(animalContext.getAnimal());
+
+        Generics<String> error = new Generics<>();
+        try { error.save(null); } catch (MinhaException e) {
+            ErroPersonalizado erroPersonalizado = new ErroPersonalizado("Não foi possivel salvar ",
+                    "Desculpe sistema não salvou",
+                    500,"www.IAos.com");
+            System.out.println(erroPersonalizado.toString());
+            throw e;
+        }
+
 
 
     }

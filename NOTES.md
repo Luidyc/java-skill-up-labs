@@ -30,6 +30,11 @@
 * Criar funções menores, como save() ou verificações
 * Sendo assim, consigo passar qualquer tipo de objeto e ter mesmo comportamento.
 
+# 7 Exception
+* Tive dificuldade pra compreender, porém eu sei que RuntimeException é pra erros não esperados, e ou tratados, nullPointer, argumentoErrado.
+* Exception é pra erros previstos, falhas de SQL, erros ao consultar o banco de dados e o sistema devolve oque tem em cache.
+* Posso criar minha Excessão, e retornar um record com Erro personalizado para API, porém no código eu trato através do breakpoint.
+* Try e catch, usado para capturar exceções que já ocorreram, tratar erros e impedir que o programa quebre.
 
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.

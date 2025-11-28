@@ -18,7 +18,10 @@ public class Generics<T> {
     private List<T> repository = new ArrayList<>();
 
 
-    public void save(T object) {
+    public void save(T object) throws MinhaException{
+        if (object == null) {
+            throw new MinhaException("Objeto pedido pra salvar é nulo",500);
+        }
         repository.add(object);
         System.out.println(repository.getFirst());
     }

@@ -71,7 +71,7 @@ Esse ciclo forma habilidade real.
 - Polimorfismo real ✅
 - Herança vs composição ✅
 - Generics ✅
-- Exceptions
+- Exceptions ✅
 - Reflection + dynamic object reading
 
 ### **Semana 2 — Concorrência**
