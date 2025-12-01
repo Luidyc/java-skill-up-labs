@@ -55,7 +55,7 @@ public class Main {
         Generics<Animal> animalGenerico = new Generics<>();
         generics.setObject(humano);
         System.out.println(generics.getObject());
-        animalGenerico.save(animalContext.getAnimal());
+/*        animalGenerico.save(animalContext.getAnimal());
 
         Generics<String> error = new Generics<>();
         try { error.save(null); } catch (MinhaException e) {
@@ -65,8 +65,10 @@ public class Main {
             System.out.println(erroPersonalizado.toString());
             throw e;
         }
-
-
+*/
+        Reflection<Polimorfismo.Animal> getAnimalRefletido = new Reflection<>();
+        getAnimalRefletido.setObject(animal);
+        getAnimalRefletido.getInfo();
 
     }
 }
