@@ -1,4 +1,5 @@
 import WeekOneCoreJava.*;
+import WeekTwoJava.CompletableFutureLesson;
 import WeekTwoJava.ExecutorServices;
 import WeekTwoJava.Threads;
 
@@ -74,10 +75,14 @@ public class Main {
         Threads threads = new Threads();
         threads.calculadoraReceitas();
         threads.engineVerificada();
-
+        CompletableFutureLesson futureLesson = new CompletableFutureLesson();
+        futureLesson.futureAsync("Civic");
+        futureLesson.futureAsync("Corolla");
         ExecutorServices executorServices = new ExecutorServices();
         executorServices.tarefa1();
         executorServices.exec();
         executorServices.callableComRetorno();
+
+
     }
 }

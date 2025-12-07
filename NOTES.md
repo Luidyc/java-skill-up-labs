@@ -47,6 +47,11 @@
 * ExecutorServices é uma fabrica, criando esses serviços.
 * Callable retorna Objetos com future.get() e Execute gera execução de serviços.
 
+# 10 CompletableFuture
+* Doug Lea, criou uma abstração de forma assincrona e factory de Threads, através dela você consegue criar oque no #9 era manual dinamico
+* Através dele posso executar e tomar ações sem usar future.get(), computando sobre o mesmo em fluxos.
+* Sendo assim posso utilizar outras funções enquanto gero na thread principal outra função.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.
