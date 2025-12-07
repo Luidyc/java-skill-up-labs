@@ -52,6 +52,10 @@
 * Através dele posso executar e tomar ações sem usar future.get(), computando sobre o mesmo em fluxos.
 * Sendo assim posso utilizar outras funções enquanto gero na thread principal outra função.
 
+# 11 Consumer/Producer
+* É criar workers que dividem uma mesma fila, e entre eles dividem trabalhos balanceando as cargas.
+* Crio em producer e itero sobre em consumer, criando assim uma carga balanceada.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.

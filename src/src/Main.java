@@ -1,6 +1,7 @@
 import WeekOneCoreJava.*;
 import WeekTwoJava.CompletableFutureLesson;
 import WeekTwoJava.ExecutorServices;
+import WeekTwoJava.ProducerConsumer;
 import WeekTwoJava.Threads;
 
 
@@ -83,6 +84,8 @@ public class Main {
         executorServices.exec();
         executorServices.callableComRetorno();
 
+        ProducerConsumer producerConsumer = new ProducerConsumer();
+        producerConsumer.run();
 
     }
 }

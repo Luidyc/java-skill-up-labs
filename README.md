@@ -78,7 +78,7 @@ Esse ciclo forma habilidade real.
 - Threads ✅
 - ExecutorService ✅
 - CompletableFuture ✅
-- Producer/Consumer
+- Producer/Consumer ✅
 - Benchmark
 
 ### **Semana 3 — Performance**
