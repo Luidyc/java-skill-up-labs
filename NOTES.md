@@ -36,6 +36,17 @@
 * Posso criar minha Excessão, e retornar um record com Erro personalizado para API, porém no código eu trato através do breakpoint.
 * Try e catch, usado para capturar exceções que já ocorreram, tratar erros e impedir que o programa quebre.
 
+# 8 Threads
+* Tive dificuldade de aplicar, entendo que o conceito é executar uma atividade com mais CPU e preparar para em tempo de execução
+* Vou tentar aplicar em um cenário mais claro
+* Consegui entender que Threads é diferente de velocidade. É a capacidade do sistema funcionar de forma independente para cada tafera.
+* Eu tenho função A, B e C sendo executadas porém D já está carregando.
+
+# 9 ExecutorServices
+* Possibilidade de trabalhar com serviços async dentro do Java e concorrentes.
+* ExecutorServices é uma fabrica, criando esses serviços.
+* Callable retorna Objetos com future.get() e Execute gera execução de serviços.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.
@@ -47,3 +58,4 @@
 * Eu polimorfo quando o DoAction do animal é alterado e o State Pattern é expor como está o estado no MOMENTO.
 
 * Combinação de Generics e Composição e Estado é uma grande alavanca.
+* Threads é bem poderoso e moderno.

@@ -72,12 +72,12 @@ Esse ciclo forma habilidade real.
 - Herança vs composição ✅
 - Generics ✅
 - Exceptions ✅
-- Reflection + dynamic object reading
+- Reflection + dynamic object reading ✅
 
 ### **Semana 2 — Concorrência**
-- Threads
-- ExecutorService
-- CompletableFuture
+- Threads ✅
+- ExecutorService ✅
+- CompletableFuture 
 - Producer/Consumer
 - Benchmark
 

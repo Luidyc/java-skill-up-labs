@@ -1,4 +1,6 @@
 import WeekOneCoreJava.*;
+import WeekTwoJava.ExecutorServices;
+import WeekTwoJava.Threads;
 
 
 public class Main {
@@ -69,6 +71,13 @@ public class Main {
         Reflection<Polimorfismo.Animal> getAnimalRefletido = new Reflection<>();
         getAnimalRefletido.setObject(animal);
         getAnimalRefletido.getInfo();
+        Threads threads = new Threads();
+        threads.calculadoraReceitas();
+        threads.engineVerificada();
 
+        ExecutorServices executorServices = new ExecutorServices();
+        executorServices.tarefa1();
+        executorServices.exec();
+        executorServices.callableComRetorno();
     }
 }
