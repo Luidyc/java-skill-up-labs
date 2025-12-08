@@ -56,6 +56,11 @@
 * É criar workers que dividem uma mesma fila, e entre eles dividem trabalhos balanceando as cargas.
 * Crio em producer e itero sobre em consumer, criando assim uma carga balanceada.
 
+# 12 Benchmark
+* Medição de tempo de processamento, estresse e resposta.
+* Dependências para fazer de forma profissional, medições internas para entregar acompanhamento
+* Rotinas podem ser acompanhadas, medição de erros ou exepctions em threads ou filas.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.

@@ -79,7 +79,7 @@ Esse ciclo forma habilidade real.
 - ExecutorService ✅
 - CompletableFuture ✅
 - Producer/Consumer ✅
-- Benchmark
+- Benchmark ✅
 
 ### **Semana 3 — Performance**
 - LRU Cache

@@ -16,12 +16,12 @@ public class Producer implements  Runnable{
 
     @Override
     public void run() {
-        for(int i = 0; i < 5; i++) {
+        for(int i = 0; i < 1000; i++) {
             Paciente paciente = new Paciente(random.nextInt(100));
             try {
                 System.out.printf("Producer %d produced %d%n",id,paciente.getId());
                 queue.put(paciente);
-                Thread.sleep(random.nextInt(100));
+                //Thread.sleep(random.nextInt(100));
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
