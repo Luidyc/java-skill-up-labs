@@ -82,7 +82,7 @@ Esse ciclo forma habilidade real.
 - Benchmark ✅
 
 ### **Semana 3 — Performance**
-- LRU Cache
+- LRU Cache ✅
 - Otimização Big-O
 - Rate Limiter
 - Cache com Caffeine

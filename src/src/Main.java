@@ -1,4 +1,5 @@
 import WeekOneCoreJava.*;
+import WeekThreeJava.LRUcacheLesson;
 import WeekTwoJava.CompletableFutureLesson;
 import WeekTwoJava.ExecutorServices;
 import WeekTwoJava.ProducerConsumer;
@@ -87,5 +88,15 @@ public class Main {
         ProducerConsumer producerConsumer = new ProducerConsumer();
         producerConsumer.run();
 
+        LRUcacheLesson<String,Integer> cacheSystem = new LRUcacheLesson<>(3);
+        cacheSystem.put("Banana",1);
+        cacheSystem.put("Laranja",2);
+        System.out.println(cacheSystem);
+        //cacheSystem.get("Banana");
+        // Se eu tirar o comentário Laranja será removido, porque "Banana" foi acessada recentemente.
+        cacheSystem.put("Morango",3);
+        System.out.println(cacheSystem);
+        cacheSystem.put("Melão",4);
+        System.out.println(cacheSystem);
     }
 }

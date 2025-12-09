@@ -61,6 +61,12 @@
 * Dependências para fazer de forma profissional, medições internas para entregar acompanhamento
 * Rotinas podem ser acompanhadas, medição de erros ou exepctions em threads ou filas.
 
+# 13 LRU CACHE
+* Estratégia de ter 2 listas encadeadas ligadas através de um Hashmap, (chave e valor).
+* Você consegue fazer a ligação das listas, percorrer através do Hash e utilizar o salvamento dos itens acessados.
+* A estratégia através de LinkedHashMap é, retirar o item menos acessado e mais antigo no método, removeEldestEntry.
+* Sendo assim o sistema otimiza, através da definição da capacidade de armazenamento em cache e removendo o dado mais antigo para salvar o novo.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.
