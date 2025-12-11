@@ -67,6 +67,11 @@
 * A estratégia através de LinkedHashMap é, retirar o item menos acessado e mais antigo no método, removeEldestEntry.
 * Sendo assim o sistema otimiza, através da definição da capacidade de armazenamento em cache e removendo o dado mais antigo para salvar o novo.
 
+# 14 Big O - Notation
+* Implementação de melhorias de desempenho da notação Big O, e revisão de Big O.
+* O(n) –- linear — O(n²) –- loops aninhados -- O(log n) –- divisões sucessivas  -- O(1) –- acesso direto (hashing) -- O(2ⁿ) –- recursões explosivas (como Fibonacci sem cache)
+* Transformando uma busca não otimizada, dois for's encadeados em Hashmap para transformar o código em n(1) com performance otimizada.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.
