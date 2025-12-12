@@ -72,6 +72,12 @@
 * O(n) –- linear — O(n²) –- loops aninhados -- O(log n) –- divisões sucessivas  -- O(1) –- acesso direto (hashing) -- O(2ⁿ) –- recursões explosivas (como Fibonacci sem cache)
 * Transformando uma busca não otimizada, dois for's encadeados em Hashmap para transformar o código em n(1) com performance otimizada.
 
+# 14 Rate Limits
+* Não consegui ter sucesso na pesquisa de implementações e nem tutoriais claros.
+* Errei na implementação por sempre carregar um novo array vazio do tempo da requisição, precisei alterar para carregar uma lista com tempo da request.
+* Entendi, que ela serve como um detector da api, limitando acesso a endpoints ou a aplicação como um todo.
+* Consigo capturar eventos de todas as threads para verificar e não deixar atingir limite.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.

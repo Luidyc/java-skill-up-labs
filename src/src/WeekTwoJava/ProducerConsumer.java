@@ -1,10 +1,12 @@
 package WeekTwoJava;
 
+
+
 import java.util.concurrent.*;
 
 public class ProducerConsumer {
     Benchmark benchmark = new Benchmark();
-    public void run() throws InterruptedException {
+    public void run() throws Exception {
         BlockingQueue<Paciente> queue = new LinkedBlockingQueue<>();
         Producer p1 = new Producer(27,queue);
         Producer p2 = new Producer(14, queue);
@@ -17,7 +19,6 @@ public class ProducerConsumer {
         services.execute(p2);
         services.execute(c1);
         services.execute(c2);
-
         services.shutdown();
         services.awaitTermination(1,TimeUnit.MINUTES);
         benchmark.end();

@@ -22,24 +22,14 @@ Este repositório é o registro público da minha evolução técnica: cada past
 - Não uso IA para gerar código inicial.
 - IA só entra **depois** da minha primeira tentativa.
 
-### **2. Sempre registrar a versão “minha solução”**
-Cada desafio tem:
-- `minha-solucao/`
-- `refatorada/` (após feedback ou estudo adicional)
 
-### **3. Commits pequenos, frequentes e descritivos**
-Exemplos:
-- `add: primeira tentativa usando polimorfismo`
-- `fix: correção de bug no cache LRU`
-- `refactor: simplifica lógica de sensor`
-
-### **4. Sempre debugar antes de perguntar**
+### **2. Sempre debugar antes de perguntar**
 - uso breakpoints
 - printo variáveis
 - leio stacktrace
 - investigou → só então recorro a IA
 
-### **5. Documentar o que aprendi**
+### **3. Documentar o que aprendi**
 Cada pasta de desafio possui:
 - `NOTES.md` com:
     - o que aprendi
@@ -84,16 +74,9 @@ Esse ciclo forma habilidade real.
 ### **Semana 3 — Performance**
 - LRU Cache ✅
 - Otimização Big-O ✅
-- Rate Limiter
+- Rate Limiter ✅
 - Cache com Caffeine
 
-### **Semana 4 — Sleep OS (Mini Projeto Completo)**
-- Sensores
-- Hipóteses
-- Ações
-- Processadores
-- Cache interno
-- API REST em Spring
 
 ---
 

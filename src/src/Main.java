@@ -7,7 +7,7 @@ import WeekTwoJava.Threads;
 
 
 public class Main {
-    public static void main(String[] args) throws MinhaException, InterruptedException {
+    public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
         Polimorfismo.Animal animal = new Polimorfismo.Animal("Cachorro","Herbivoro","Fraco");
