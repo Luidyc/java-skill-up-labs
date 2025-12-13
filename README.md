@@ -75,8 +75,7 @@ Esse ciclo forma habilidade real.
 - LRU Cache ✅
 - Otimização Big-O ✅
 - Rate Limiter ✅
-- Cache com Caffeine
-
+- Cache com Caffeine ✅
 
 ---
 

@@ -78,6 +78,10 @@
 * Entendi, que ela serve como um detector da api, limitando acesso a endpoints ou a aplicação como um todo.
 * Consigo capturar eventos de todas as threads para verificar e não deixar atingir limite.
 
+# 15 Caffeine
+* Utilizando cache de forma profissional, Lib permite fazer concorrência de um jeito profissional.
+* Escalar com baixo custo de operação e podendo trocar o adapter facilmente.
+
 # Avaliação
 * Eu errei, achei que era polimorfismo e implementei HERANÇA e muito mal, esqueci do super para sobrepor Animal em Animal Marinho.
 * DENTRO DO CONSTRUTOR DE Animal Marinho, o primeiro é o super() que recria as classes do primeiro objeto.

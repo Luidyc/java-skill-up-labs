@@ -1,4 +1,5 @@
 import WeekOneCoreJava.*;
+import WeekThreeJava.CacheCaffeineLocal;
 import WeekThreeJava.LRUcacheLesson;
 import WeekTwoJava.CompletableFutureLesson;
 import WeekTwoJava.ExecutorServices;
@@ -98,5 +99,12 @@ public class Main {
         System.out.println(cacheSystem);
         cacheSystem.put("Melão",4);
         System.out.println(cacheSystem);
+
+        CacheCaffeineLocal caffeine = new CacheCaffeineLocal();
+        caffeine.put("Luidy","Desenvolvedor de software");
+        caffeine.put("Larissa","Dentista");
+        caffeine.put("Luiz", "Protetíco");
+        System.out.println(caffeine.get("Larissa"));
+        System.out.println(caffeine.get("Luidy"));
     }
 }
